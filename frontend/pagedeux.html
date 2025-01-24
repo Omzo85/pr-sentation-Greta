@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagedeux.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+            <title>Document</title>
+        </head>
+        <body>
+            <main>
+                <div class="Mobile" style="width: 412px; height: 917px; position: relative; background: white;">
+                    <!-- Header -->
+                    <div class="Header" style="width: 412px; height: 72px; background: #F2B705; position: absolute; top: 0;"></div>
+                    <div class="NomDuRestaurant" style="position: absolute; left: 140px; top: 28px; color: black; font-size: 24px; font-family: Inria Serif; font-weight: 700; word-wrap: break-word;">Chez Khadija</div>
+                  
+                    <!-- Navbar -->
+                    <div class="Navbar" style="position: absolute; top: 0; left: 0; height: 72px; display: flex; align-items: center; z-index: 100;">
+                      <button onclick="toggleMenu()" style="width: 46px; height: 46px; background: #F2B705; border: none; color: black; font-size: 20px; font-weight: bold; cursor: pointer; border-radius: 50%; margin-right: 10px;">☰</button>
+                    </div>
+                  
+                    <div id="DropdownMenu" style="display: none; position: absolute; top: 72px; left: 10px; width: 200px; background: white; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); z-index: 99; border-radius: 8px; overflow: hidden;">
+                      <a href="#home" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-size: 16px; font-family: Inria Serif; font-weight: 400; border-bottom: 1px solid #ddd;">Accueil</a>
+                      <a href="#about" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-size: 16px; font-family: Inria Serif; font-weight: 400; border-bottom: 1px solid #ddd;">Profil</a>
+                      <a href="#menu" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-size: 16px; font-family: Inria Serif; font-weight: 400; border-bottom: 1px solid #ddd;">Panier</a>
+                      <a href="#contact" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-size: 16px; font-family: Inria Serif; font-weight: 400;">Contact</a>
+                    </div>
+
+
+        
+        
+                      
+                    <script>
+                        // Fonction pour afficher ou cacher le menu déroulant
+                        function toggleMenu() {
+                          const menu = document.getElementById("DropdownMenu");
+                          if (menu.style.display === "none" || menu.style.display === "") {
+                            menu.style.display = "block";
+                          } else {
+                            menu.style.display = "none";
+                          }
+                        }
+                      </script>
+                  
+                  <div class="container">
+                    <!-- Header -->
+                    <div class="header"></div>
+                    
+               
+                    
+                    <!-- Restaurant Name -->
+                    <div class="restaurant-name">Chez Khadija</div>
+                    
+                   
+                    
+                    <!-- Main Image -->
+                    <img class="main-image" src="img/thiepp.jpeg" alt="Main Dish">
+                    
+                    <!-- Dish Title and Price -->
+                    <div class="dish-title-price">
+                      <span class="dish-title">Thiepp au poulet<br/></span>
+                      <span class="dish-price">15 €</span>
+                    </div>
+                    
+                    <!-- Add to Cart Button -->
+                    <div class ="add-to-cart-btn "></div>
+                    <div class="add-to-cart-text">Ajouter au panier</div>
+                    
+                    <!-- Dish Description -->
+                    <div class="description-container">
+                      <div class="description">
+                        Le thiéboudiène au poulet est un plat emblématique de la cuisine sénégalaise, où le riz est cuit dans une sauce tomate épaisse et parfumée, agrémentée de légumes tels que le chou, la carotte, l'aubergine et le manioc.
+                      </div>
+
+                     
+                    </div>
+                  
+               
+              
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+    </main>
+</body>
+</html>

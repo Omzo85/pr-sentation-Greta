@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+  .container {
+    width: 412px;
+    height: 917px;
+    position: relative;
+    background: white;
+  }
+  .header {
+    width: 412px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    background: #F2B705;
+  }
+  .logo {
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    left: 7px;
+    top: 14px;
+  }
+  .restaurant-name {
+    position: absolute;
+    left: 145px;
+    top: 36px;
+    color: black;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 376px;
+    top: 21px;
+  }
+  .user-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 340px;
+    top: 21px;
+  }
+  .main-image {
+    width: 412px;
+    height: 195px;
+    position: absolute;
+    top: 72px;
+  }
+  .dish-title-price {
+    position: absolute;
+    left: 55px;
+    top: 313px;
+  }
+  .dish-title {
+    color: black;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  .dish-price {
+    color: black;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  .add-to-cart-btn {
+    width: 380px;
+    height: 48px;
+    position: absolute;
+    left: 22px;
+    top: 839px;
+    background: #EFAA16;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .add-to-cart-text {
+    position: absolute;
+    left: 129px;
+    top: 852px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  .description-container {
+    position: absolute;
+    padding: 10px;
+    left: 50px;
+    top: 391px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .description {
+    width: 332px;
+    color: black;
+    flex-direction: center;
+    font-size: 16px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+
+
+  
