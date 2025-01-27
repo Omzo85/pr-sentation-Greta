@@ -10,22 +10,95 @@
 </head>
 <body>
     <div class="Mobile">
-        <div class="Header">
+        <header class="Header">
             <div class="Navbar">
-                <button onclick="toggleMenu()" class="menu-toggle">☰</button>
-                <div class="NomDuRestaurant">Chez Khadija</div>
+                <button onclick="toggleMenu()" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="NomDuRestaurant">
+                    <i class="fas fa-utensils"></i>
+                    Chez Khadija
+                </div>
+                <div class="header-icons">
+                    <a href="#profile" class="profile-icon">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#panier" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
             </div>
             
             <div id="DropdownMenu" class="dropdown-menu">
-                <a href="#home">Accueil</a>
-                <a href="#about">Profil</a>
-                <a href="#menu">Panier</a>
-                <a href="#contact">Contact</a>
+                <a href="#home"><i class="fas fa-home"></i> Accueil</a>
+                <a href="#about"><i class="fas fa-user"></i> Profil</a>
+                <a href="#menu"><i class="fas fa-shopping-cart"></i> Panier</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </header>
+
+        <div class="restaurant-description">
+            <img class="acceuil" src="assets/img/IMG_0914-Edit.jpg" alt="">
+            <h2>Bienvenue Chez Khadija</h2>
+            <p>Découvrez les saveurs authentiques de la cuisine sénégalaise traditionnelle. Notre chef Khadija vous propose une expérience culinaire unique, mêlant épices parfumées et techniques ancestrales pour vous offrir le meilleur de l'Afrique de l'Ouest.</p>
+        </div>
+
+        <div class="Menu">
+            <h1><i class="fas fa-book-open"></i> Notre Menu</h1>
+        </div>
+
+        <div class="Menu">
+            <h2>Nos Entrées</h2>
+        </div>
+        <div class="ListeDesPlats">
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Pastels</div>
+                    <div class="plat-description">(Beignets farcis au thon)</div>
+                </div>
+                <img src="assets/img/pastels.jpeg" alt="Pastels" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Accras de poisson</div>
+                    <div class="plat-description">(Beignets de poisson épicés)</div>
+                </div>
+                <img src="assets/img/accras.jpeg" alt="Accras" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Salade Yassa</div>
+                    <div class="plat-description">(Salade d'oignons confits au citron)</div>
+                </div>
+                <img src="assets/img/salade-yassa.jpeg" alt="Salade Yassa" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Nemé</div>
+                    <div class="plat-description">(Nems sénégalais à la viande)</div>
+                </div>
+                <img src="assets/img/neme.jpeg" alt="Nemé" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Fataya</div>
+                    <div class="plat-description">(Chausson fourré à la viande hachée)</div>
+                </div>
+                <img src="assets/img/fataya.jpeg" alt="Fataya" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Salade Attieké</div>
+                    <div class="plat-description">(Semoule de manioc aux légumes)</div>
+                </div>
+                <img src="assets/img/attieke.jpeg" alt="Attieké" />
             </div>
         </div>
 
-        <div class="Menu">Menu</div>
-          
+        <div class="Menu">
+            <h2>Nos Plats Principaux</h2>
+        </div>
         <div class="ListeDesPlats">
             <div class="Plat">
                 <div class="Description">
@@ -56,7 +129,7 @@
                     <div class="plat-nom">Maffé</div>
                     <div class="plat-description">(Sauce arachide au boeuf et riz blanc)</div>
                 </div>
-                <img src="assets/img/Maffé Boeuf.jpeg" alt="Maffé Boeuf" />
+                <img src="assets/img/Maffé Boeuf.jpeg" alt="Maffé Boeuf" />
             </div>
 
             <div class="Plat">
@@ -64,30 +137,59 @@
                     <div class="plat-nom">Couscous sénégalais</div>
                     <div class="plat-description">(Semoule de mil aux 7 légumes)</div>
                 </div>
-                <img src="assets/img/thiéré.jpeg" alt="Couscous sénégalais" />
+                <img src="assets/img/thiéré.jpeg" alt="Couscous sénégalais" />
+            </div>
+        </div>
+
+        <div class="Menu">
+            <h2>Nos Desserts</h2>
+        </div>
+        <div class="ListeDesPlats">
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Thiakry</div>
+                    <div class="plat-description">(Couscous sucré au lait caillé)</div>
+                </div>
+                <img src="assets/img/thiakry.jpeg" alt="Thiakry" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Fondé</div>
+                    <div class="plat-description">(Boules de mil sucrées)</div>
+                </div>
+                <img src="assets/img/fonde.jpeg" alt="Fondé" />
+            </div>
+            <div class="Plat">
+                <div class="Description">
+                    <div class="plat-nom">Ngalakh</div>
+                    <div class="plat-description">(Dessert à base de mil et fruits)</div>
+                </div>
+                <img src="assets/img/ngalakh.jpeg" alt="Ngalakh" />
             </div>
         </div>
 
         <footer>
-            <div class="contact-info">
-                <p>📍 12 Rue de la République, Dakar</p>
-                <p>📞 +221 77 123 45 67</p>
-            </div>
-            <div class="social-links">
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <div class="footer-content">
+                <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    50 avenue de Paris<br>95290 L'Isle-Adam
+                </div>
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    +33 1 34 00 87 55 32
+                </div>
+                <div class="social-links">
+                    <a href="#instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
+                </div>
             </div>
         </footer>
     </div>
-          
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         function toggleMenu() {
-            const menu = document.getElementById("DropdownMenu");
-            if (menu.style.display === "none" || menu.style.display === "") {
-                menu.style.display = "block";
-            } else {
-                menu.style.display = "none";
-            }
+            document.getElementById("DropdownMenu").classList.toggle("show");
         }
     </script>
 </body>
